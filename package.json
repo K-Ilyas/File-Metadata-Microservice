@@ -1,0 +1,21 @@
+{
+  "name": "file-metadata-microservice",
+  "version": "1.0.0",
+  "description": "file metadata microservice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "file",
+    "metadata"
+  ],
+  "author": "ilyas kritet",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "multer": "^1.4.5-lts.1"
+  }
+}

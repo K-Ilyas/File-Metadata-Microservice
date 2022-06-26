@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="public/style.css" type="text/css" />
+    <title>File Metadata Microservice</title>
+</head>
+
+<body>
+    <main class="container">
+        <header id="head">
+            <h1>API Project: File Metadata Microservice</h1>
+        </header>
+        <section id="body">
+            <h2>Usage</h2>
+            <p>Please Upload a File ...</p>
+            <form action="/api/fileanalyse" class="form" method="post" enctype="multipart/form-data">
+                <fieldset>
+                    <div class="form-control" tabindex="0">
+                        <div id="file_hider">
+                            <i class="fas fa-upload"></i>
+                        </div>
+                        <input type="file" name="upfile" id="file" required />
+                        <p id="file_name"></p>
+                    </div>
+                    <div class="form-control" tabindex="0">
+                        <input type="submit" value="submit" />
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+        <footer id="footer">
+            <strong> By</strong>
+            <a href="" target="_blank">Kritet ilyas</a>
+        </footer>
+    </main>
+</body>
+
+<script src="public/script.js"></script>
+
+</html>
